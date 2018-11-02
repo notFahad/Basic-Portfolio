@@ -55,6 +55,7 @@ h2 {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: teal;
+    letter-spacing: 5px;
 }
 
 .chuckimage {
@@ -81,6 +82,7 @@ input[type=text], select, textarea {
     border-radius: 50px;
     padding: 20px;
     clear: both;
+    position: relative;
 }
 
 #box {
@@ -134,4 +136,66 @@ input[type=text], select, textarea {
     padding: 30px 0px 0px 0px;
     color: white;
     position: fixed;
+}
+
+.portfolioimages {
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.projects {
+    text-align: center;
+    top: 25%;
+    left: 15%;
+    background-color: teal;
+    position: absolute;
+    border: black solid 1px;
+    color: white;
+}
+
+.portfolioimages {
+    border-color: black;
+    border: black solid 2px;
+    margin: 1px;
+}
+
+.collaboration {
+    position: absolute;
+    border: black solid 1px;
+    top: 25%;
+    left: 45.5%;
+    background-color: teal;
+    color: white;
+}
+
+.ideas {
+    position: absolute;
+    border: black solid 1px;
+    top: 25%;
+    left: 80%;
+    background-color: teal;
+    color: white;
+}
+ ul {
+     clear: both;
+     padding-top: 30px;
+ }
+
+ #footthree {
+    background-color: #777777;
+    text-align: center;
+    position: relative;
+    width: 200%;
+    left: -400px;
+    padding: 30px 0px 0px 0px;
+    color: white;
+ }
+
+#bottombartwo {
+    height: 15px;
+    background-color: teal;
+    margin-top: 100px;
+    margin-bottom: -8px;
+    width: 200%;
 }
